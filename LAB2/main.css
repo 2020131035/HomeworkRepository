@@ -1,0 +1,56 @@
+/*Required properties(4/10) : text-align, font-family, color, font-size*/
+body{
+    text-align:center;
+    font-family:Tahoma, Verdana, sans-serif;
+    color:black;
+    font-size:16px;
+}
+
+p{
+    margin:10px;
+}
+
+/*Required properties(8/10) : margin, border, width, padding*/
+form{
+    border: 2px solid black;
+
+    position:relative;
+    width:450px;
+    left:50%;
+    margin:30px auto auto -225px;
+
+
+    text-align: start;
+    font-family:Tahoma, Verdana, sans-serif;
+    padding:15px;
+}
+
+/*Required properties(9/10) : height*/
+.box{
+    position:absolute;
+    left:25%;
+    width:230px; height:20px;
+    padding:0px; margin-bottom:5px;
+    text-align: center;
+    font-family:Tahoma, Verdana, sans-serif;
+}
+
+.radio{
+    position:relative;
+    left:15%; 
+    margin-right:100px;
+}
+
+/*Required properties(10/10) : background-color*/
+.submitButton{
+    background-color: #6bff6b;
+    font-size:15px;
+    width:80px; height:30px;
+    border-radius: 15px;
+}
+.cancelButton{
+    background-color: rgb(255, 65, 65);
+    font-size:15px;
+    width:80px; height:30px;
+    border-radius: 15px;
+}
