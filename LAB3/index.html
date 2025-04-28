@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Movie Information Site</title>
+        <link rel="stylesheet" href="main.css" type="text/css">
+    </head>
+    <body>
+        <div>
+            <div class="headingWrapper">
+                <h1 class="animationHeading">인프밍 영화정보 사이트입니다.</h1>
+            </div>
+            <ul class="linkList">
+                <li><a href="index.html"><b>메인페이지</b></a></li>
+                <li><a href="login.html"><b>로그인</b></a></li>     <!--Main Page to Login Page-->
+                <li><a href="signup.html"><b>회원가입</b></a></li>  <!--Main Page to Signup Page-->
+            </ul>
+            <hr>
+    
+            <div id="contents">     <!--The outmost flexbox : Vertical-->
+                <div id="main">     <!--The first child flexbox of the outermost one : Vertical-->
+                    <h2>Movies</h2>
+                    <div id="posters">      <!--The grand child flexbox of the outermost one : Horizontal(default)-->
+                        <div class="genre">     <!--The innermost flexbox : Horizontal-->
+                            <div class="image">
+                                <img src="threeIdiots.jpg" alt="3_Idiots">
+                                <div class="title">3 Idiots</div>
+                            </div>
+                            <div class="image">
+                                <img src="whiteChicks.jpg" alt="White_Chicks">
+                                <div class="title">White Chicks</div>
+                            </div>
+                        </div>
+                        <div class="genre">
+                            <div class="image">
+                                <img src="edgeOfTomorrow.jpg" alt="Edge_Of_Tomorrow">
+                                <div class="title">Edge of Tomorrow</div>
+                            </div>
+                            <div class="image">
+                                <img src="diehard.jpg" alt="A_Good_Day_To_DieHard">
+                                <div class="title">A Good Day to Die Hard</div>
+                            </div>
+                        </div>
+                        <div class="genre">
+                            <div class="image">
+                                <img src="charlie.jpg" alt="Charlie_And_Chocolate_Factory">
+                                <div class="title">Charlie and Chocolate Factory</div>
+                            </div>
+                            <div class="image">
+                                <img src="nowYouSeeMe.jpg" alt="Now_You_See_Me">
+                                <div class="title">Now You See Me</div>
+                            </div>
+                        </div>
+                        <div class="genre">
+                            <div class="image">
+                                <img src="martian.jpg" alt="The_Martian">
+                                <div class="title">The Martian</div>
+                            </div>
+                            <div class="image">
+                                <img src="interstellar.jpg" alt="Interstellar">
+                                <div class="title">Interstellar</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="intro">
+                    <h2>About</h2>
+                    여기는 인터넷프로그래밍 영화 정보 사이트입니다.
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>
