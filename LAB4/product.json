@@ -1,0 +1,150 @@
+[
+    {
+        "name": "Charlie and the Chocolate Factory",
+        "rating": 6.7,
+        "releaseDate":"2005-07-13",
+        "src":"images/charlie.jpg",
+        "overview":"A young boy wins a tour through the most magnificent chocolate factory in the world, led by the world's most unusual candy maker."
+    },
+    {
+        "name": "A Good Day to Die Hard",
+        "rating": 5.2,
+        "releaseDate":"2013-02-06",
+        "src":"images/diehard.jpg",
+        "overview":"Iconoclastic, take-no-prisoners cop John McClane, finds himself for the first time on foreign soil after traveling to Moscow to help his wayward son Jack - unaware that Jack is really a highly-trained CIA operative out to stop a nuclear weapons heist. With the Russian underworld in pursuit, and battling a countdown to war, the two McClanes discover that their opposing methods make them unstoppable heroes."
+    },
+    {
+        "name": "Edge of Tomorrow",
+        "rating": 7.6,
+        "releaseDate":"2014-05-27",
+        "src":"images/edgeOfTomorrow.jpg",
+        "overview":"Major Bill Cage is an officer who has never seen a day of combat when he is unceremoniously demoted and dropped into combat. Cage is killed within minutes, managing to take an alpha alien down with him. He awakens back at the beginning of the same day and is forced to fight and die again... and again - as physical contact with the alien has thrown him into a time loop."
+    },
+    {
+        "name": "Interstellar",
+        "rating": 8.1,
+        "releaseDate":"2014-11-05",
+        "src":"images/interstellar.jpg",
+        "overview":"Interstellar chronicles the adventures of a group of explorers who make use of a newly discovered wormhole to surpass the limitations on human space travel and conquer the vast distances involved in an interstellar voyage."
+    },
+
+
+    {
+        "name": "The Martian",
+        "rating": 7.6,
+        "releaseDate":"2015-09-30",
+        "src":"images/martian.jpg",
+        "overview":"During a manned mission to Mars, Astronaut Mark Watney is presumed dead after a fierce storm and left behind by his crew. But Watney has survived and finds himself stranded and alone on the hostile planet. With only meager supplies, he must draw upon his ingenuity, wit and spirit to subsist and find a way to signal to Earth that he is alive."
+    },
+    {
+        "name": "Now You See Me",
+        "rating": 7.3,
+        "releaseDate":"2013-05-29",
+        "src":"images/nowYouSeeMe.jpg",
+        "overview":"An FBI agent and an Interpol detective track a team of illusionists who pull off bank heists during their performances and reward their audiences with the money."
+    },
+    {
+        "name": "3 Idiots",
+        "rating": 7.8,
+        "releaseDate":"2009-12-23",
+        "src":"images/threeIdiots.jpg",
+        "overview":"In the tradition of 'Ferris Bueller’s Day Off' comes this refreshing comedy about a rebellious prankster with a crafty mind and a heart of gold. Rascal. Joker. Dreamer. Genius... You've never met a college student quite like 'Rancho'. From the moment he arrives at India's most prestigious university, Rancho's outlandish schemes turn the campus upside down—along with the lives of his two newfound best friends. Together, they make life miserable for 'Virus', the school’s uptight and heartless dean. But when Rancho catches the eye of the dean's sexy daughter, Virus sets his sights on flunking out the '3 idiots' once and for all."
+    },
+    {
+        "name": "White Chicks",
+        "rating": 6.3,
+        "releaseDate":"2004-06-23",
+        "src":"images/whiteChicks.jpg",
+        "overview":"Two FBI agent brothers, Marcus and Kevin Copeland, accidentally foil a drug bust. As punishment, they are forced to escort a pair of socialites to the Hamptons, where they're going to be used as bait for a kidnapper. But when the girls realize the FBI's plan, they refuse to go. Left without options, Marcus and Kevin decide to pose as the sisters, transforming themselves from African-American men into a pair of blonde, white women."
+    },
+
+
+    {
+        "name": "Toy Story",
+        "rating": 7.7,
+        "releaseDate":"1995-10-30",
+        "src":"images/toyStory.jpg",
+        "overview":"Led by Woody, Andy's toys live happily in his room until Andy's birthday brings Buzz Lightyear onto the scene. Afraid of losing his place in Andy's heart, Woody plots against Buzz. But when circumstances separate Buzz and Woody from their owner, the duo eventually learns to put aside their differences."
+    },
+    {
+        "name": "Jumanji",
+        "rating": 6.9,
+        "releaseDate":"1995-12-15",
+        "src":"images/jumanji.jpg",
+        "overview":"When siblings Judy and Peter discover an enchanted board game that opens the door to a magical world, they unwittingly invite Alan -- an adult who's been trapped inside the game for 26 years -- into their living room. Alan's only hope for freedom is to finish the game, which proves risky as all three find themselves running from giant rhinoceroses, evil monkeys and other terrifying creatures."
+    },
+    {
+        "name": "Harry Potter and the Philosopher's Stone",
+        "rating": 7.5,
+        "releaseDate":"2001-11-16",
+        "src":"images/harryPotterStone.jpg",
+        "overview":"Harry Potter has lived under the stairs at his aunt and uncle's house his whole life. But on his 11th birthday, he learns he's a powerful wizard -- with a place waiting for him at the Hogwarts School of Witchcraft and Wizardry. As he learns to harness his newfound powers with the help of the school's kindly headmaster, Harry uncovers the truth about his parents' deaths -- and about the villain who's to blame."
+    },
+    {
+        "name": "Harry Potter and the Chamber of Secrets",
+        "rating": 7.4,
+        "releaseDate":"2002-11-13",
+        "src":"images/harryPotterChamber.jpg",
+        "overview":"Ignoring threats to his life, Harry returns to Hogwarts to investigate aided by Ron and Hermione a mysterious series of attacks."
+    },
+
+
+    {
+        "name": "Harry Potter and the Prisoner of Azkaban",
+        "rating": 7.7,
+        "releaseDate":"2004-05-31",
+        "src":"images/harryPotterAzkaban.jpg",
+        "overview":"Harry, Ron and Hermione return to Hogwarts for another magic-filled year. Harry comes face to face with danger yet again, this time in the form of escaped convict, Sirius Black and turns to sympathetic Professor Lupin for help."
+    },
+    {
+        "name": "Harry Potter and the Goblet of Fire",
+        "rating": 7.5,
+        "releaseDate":"2005-11-05",
+        "src":"images/harryPotterGoblet.jpg",
+        "overview":"Harry starts his fourth year at Hogwarts, competes in the treacherous Triwizard Tournament and faces the evil Lord Voldemort. Ron and Hermione help Harry manage the pressure ??but Voldemort lurks, awaiting his chance to destroy Harry and all that he stands for."
+    },
+    {
+        "name": "Harry Potter and the Order of the Phoenix",
+        "rating": 7.4,
+        "releaseDate":"2007-06-28",
+        "src":"images/harryPotterPhoenix.jpg",
+        "overview":"Returning for his fifth year of study at Hogwarts, Harry is stunned to find that his warnings about the return of Lord Voldemort have been ignored. Left with no choice, Harry takes matters into his own hands, training a small group of students dubbed 'Dumbledore's Army' to defend themselves against the dark arts."
+    },
+    {
+        "name": "Harry Potter and the Half-Blood Prince",
+        "rating": 7.4,
+        "releaseDate":"2009-07-07",
+        "src":"images/harryPotterHalfBlood.jpg",
+        "overview":"As Harry begins his sixth year at Hogwarts, he discovers an old book marked as 'Property of the Half-Blood Prince', and begins to learn more about Lord Voldemort's dark past."
+    },
+
+
+    {
+        "name": "Harry Potter and the Deathly Hallows: Part 1",
+        "rating": 7.5,
+        "releaseDate":"2010-10-17",
+        "src":"images/harryPotterDeath1.jpg",
+        "overview":"Harry, Ron and Hermione walk away from their last year at Hogwarts to find and destroy the remaining Horcruxes, putting an end to Voldemort's bid for immortality. But with Harry's beloved Dumbledore dead and Voldemort's unscrupulous Death Eaters on the loose, the world is more dangerous than ever."
+    },
+    {
+        "name": "Harry Potter and the Deathly Hallows: Part 2",
+        "rating": 7.9,
+        "releaseDate":"2011-07-07",
+        "src":"images/harryPotterDeath2.jpg",
+        "overview":"Harry, Ron and Hermione continue their quest to vanquish the evil Voldemort once and for all. Just as things begin to look hopeless for the young wizards, Harry discovers a trio of magical objects that endow him with powers to rival Voldemort's formidable skills."
+    },
+    {
+        "name": "The Lord of the Rings: The Return of the King",
+        "rating": 8.1,
+        "releaseDate":"2003-12-01",
+        "src":"images/lordOfRingsKing.jpg",
+        "overview":"Aragorn is revealed as the heir to the ancient kings as he, Gandalf and the other members of the broken fellowship struggle to save Gondor from Sauron's forces. Meanwhile, Frodo and Sam bring the ring closer to the heart of Mordor, the dark lord's realm."
+    },
+    {
+        "name": "The Lord of the Rings: The Two Towers",
+        "rating": 8,
+        "releaseDate":"2002-12-18",
+        "src":"images/lordOfRingsTwoTowers.jpg",
+        "overview":"Frodo and Sam are trekking to Mordor to destroy the One Ring of Power while Gimli, Legolas and Aragorn search for the orc-captured Merry and Pippin. All along, nefarious wizard Saruman awaits the Fellowship members at the Orthanc Tower in Isengard."
+    }
+]

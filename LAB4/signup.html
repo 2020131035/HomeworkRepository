@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Sign up page</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
+
+    <body>
+        <h1>Welcome to INTERNET-PROGRAMMING MOVIE SITE</h1>
+
+        <!--nav tag containing redirection links-->
+        <ul class="linkList">
+                <li><a href="index.html"><b>메인페이지</b></a></li>  <!--Signup Page to Main Page-->
+                <li><a href="login.html"><b>로그인</b></a></li>     <!--Signup Page to Login Page-->
+                <li><a href="signup.html"><b>회원가입</b></a></li>  
+        </ul>
+        <hr>
+        <!--Get user input by the html 'form' tag and 'input' tags-->
+        <form id="signupForm" method="GET">
+            <!--HTML5 input (1/5), Required attributes(1/5) : autofocus-->
+            <p>
+                <label>이름 :</label><input class="box" name="name" type="text" autofocus>
+            </p>
+
+            <!--HTML5 input (2/5)-->
+            <p>
+                <label>생일 :</label><input class="box" name="birthDate" type="date">
+            </p>
+
+            <!--'radio' type-->
+            <p>
+                <label>성별 :</label>
+                <label class="radio"><input name="gender" type="radio"> 남성</label>
+                <label class="radio"><input name="gender" type="radio"> 여성</label>
+            </p>
+            
+            <!--HTML5 input (3/5), Required attributes(2/5) : step-->
+            <p>
+                <label>학년 :</label>
+                <input class="box" name="grade" type="number" min="1" max="4" step="1" value="1">
+            </p>
+
+            <!--HTML5 input (4/5) Required attributes(3/5) : placeholder-->
+            <p>
+                <label>아이디 :</label>
+                <input class="box" name="id" type="text" placeholder="2020131035">
+            </p>
+
+            <!--HTML5 input (5/5) Required attributes(4/5) : required-->
+            <p>
+                <label>비밀번호 :</label>
+                <input class="box" name="password" type="password" required>
+            </p>
+
+            <!--HTML5 input (6/5) : used more than 5 HTML5 inputs, Required attributes(5/5) : autocomplete-->
+            <p>
+                <label>이메일 :</label>
+                <input class="box" name="email" type="email" placeholder="name@yonsei.ac.kr" autocomplete="on" required>
+            </p>
+
+            <!--'select' tag for security question-->
+            <p>
+                <label>보안질문 :</label>
+                <select class="box" name="securityQuestion" style="height:25px; width:235px;">
+                    <option value="default" disabled selected hidden>질문을 선택해주세요</option>
+                    <option value="mostMemorableSpace">가장 기억에 남는 장소는?</option>
+                    <option value="mostFavoriteNumber">제일 좋아하는 숫자는?</option>
+                    <option value="mostFavoriteNumber">제일 좋아하는 음식은?</option>
+                </select>
+            </p>
+
+            <!--HTML5 input (7/5) : used more than 5 HTML5 inputs-->
+            <p>
+                <label>답변 :</label>
+                <input class="box" name="answer" type="text">
+            </p><br>
+
+            <p>
+                <input class="submitButton" type="submit" value="Signup">
+                <input class="cancelButton" type="reset" value="Cancel">
+            </p>
+           
+            
+        </form>
+        
+    </body>
+</html>
