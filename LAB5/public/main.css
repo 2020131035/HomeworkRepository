@@ -1,0 +1,316 @@
+/*Required properties(4/10) : text-align, font-family, color, font-size*/
+/*메인페이지 CSS*/
+body{
+    width:1020px;   /*All the visible components are within 1020px*/
+    text-align:center;
+    font-family:Tahoma, Verdana, sans-serif;
+    color:black;
+    font-size:16px;
+    margin: 0 auto;
+}
+
+nav{
+    display:flex;
+    justify-content: center;
+}
+
+p{
+    margin:10px;
+}
+
+/*Required properties(8/10) : margin, border, width, padding*/
+/*로그인 페이지, 회원가입 페이지 CSS*/
+form#signupForm, form#loginForm{
+    border: 2px solid black;
+
+    position:relative;
+    width:450px;
+    left:50%;
+    margin:30px auto auto -225px;
+
+
+    text-align: start;
+    font-family:Tahoma, Verdana, sans-serif;
+    padding:15px;
+}
+
+/*Required properties(9/10) : height*/
+.box{
+    position:absolute;
+    left:25%;
+    width:230px; height:20px;
+    padding:0px; margin-bottom:5px;
+    text-align: center;
+    font-family:Tahoma, Verdana, sans-serif;
+}
+
+.radio{
+    position:relative;
+    left:15%; 
+    margin-right:100px;
+}
+
+/*Required properties(10/10) : background-color*/
+.submitButton{
+    background-color: #6bff6b;
+    font-size:15px;
+    width:80px; height:30px;
+    border-radius: 15px;
+}
+.cancelButton{
+    background-color: rgb(255, 65, 65);
+    font-size:15px;
+    width:80px; height:30px;
+    border-radius: 15px;
+}
+/*----------------------------------HW3------------------------------------*/
+/*Sliding Header Animation*/
+.headingWrapper{
+    margin:0px;
+    padding:0px;
+    width:1020px;
+    overflow:hidden;
+    border : 0px;
+}
+
+.animationHeading{
+    position:relative;
+    text-align: left;
+    animation-name:movingHeading;   /*Used Animation Name*/
+    animation-timing-function: linear;
+    animation-duration:2s;  /*Used Animation Duration*/
+    animation-delay:0s;
+    animation-iteration-count: 1;
+}
+
+@keyframes movingHeading {  /*Used keyframes*/
+    0%{left:100%;}
+    100%{left:0%;}
+}
+
+/*Flexible Navigation Bar*/
+.linkList{
+    display:flex;
+    flex-direction:row; /*Used flex-direction*/
+    flex-wrap:wrap;     /*Used flex-wrap*/
+    justify-content:left;   /*Used justify-content*/
+    padding:0px 10px;
+    list-style:none;
+}
+.linkList a{
+    color:black;
+    margin:20px;
+    text-decoration: none;
+}
+.linkList li:hover{
+    height:30px;
+    border-top:2px solid lightgreen;
+    border-bottom:2px solid lightgreen;   
+}
+
+
+
+#main h2, #intro h2{
+    width:100%;
+    text-align: left;
+    border-bottom: 1px dotted black;
+}
+
+
+#intro{
+    text-align: left;
+}
+
+
+/*Represent movie title & Enlarging the poster at mouse hovering*/
+#posters>div{
+    margin:10px;
+    width:22%;
+    height:100%;
+    border:1px solid black;
+}
+#posters .image{
+    margin:5px;
+    width:45%; height:45%;
+    transition : transform 2s;  /*Used transition*/
+}
+.title{
+    opacity:0;
+    width:100%; border:0px;
+    position:relative;
+    top:-100%;
+    left:0px;
+}
+#posters .image img{
+    width:100%; height:100%;
+}
+#posters .image:hover{  /*Used hover*/
+    transform:scale(1.2,1.2)
+}
+#posters .image:hover .title{   /*Used hover*/
+    opacity:1;
+    background-color: rgb(137, 225, 65);
+    color:white;
+}
+
+
+
+
+/*----------------------------------HW4------------------------------------*/
+.heading{
+    width:100%;
+    text-align: left;
+    border-bottom: 1px dotted black;
+    padding:0px;
+    margin-bottom:20px;
+}
+.searchByKeyword{
+    border:none;
+    width:100%;
+    justify-content: left;
+}
+#searchingKeyword{
+    width:85%;
+    height:30px;
+    margin:0px;
+    border-radius: 5px;
+}
+#searchButton{
+    width:10%;
+    height:35px;
+    margin:0px;
+}
+#main{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+#sortingCriterion{
+    width:20%;
+    height:200px;
+    border:1px solid black;
+    border-radius: 5px;
+    border-color:gray;
+    padding:10px;
+    text-align: left;
+}
+#movies{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items:flex-start;
+    width:70%;
+}
+.singleMovieWrapper{
+    position:relative;
+    width:300px; height:450px;
+    margin:5px;
+    padding:10px;
+    border:1px solid black;
+    border-radius: 5px;
+    border-color:gray;
+}
+.summary{
+    display:flex;
+    align-items: center;
+    position:absolute;
+    left:0; top:0;
+    opacity:0;
+    color:white;
+    width:100%; height:100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    line-height: 1.5;
+    text-align: left;
+    font-size: 17px;
+    font-family: Arial, sans-serif;
+    overflow: scroll;
+}
+
+/*영화 호버링하면 줄거리 띄우기*/
+.summary:hover{
+    opacity:1;
+}
+.poster{
+    width: 300px;
+    height:400px;
+}
+.movieInformation{
+    text-align: center;
+    width:100%;
+    height:50px;
+    font-size:13px;
+}
+#calendar, #star{
+    width:15px; height:15px;
+    border : 0px;
+}
+
+/*----------------------------------HW5------------------------------------*/
+/*영화 설명 페이지 CSS*/
+.container {
+  display: flex;
+  gap: 20px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  max-width: 900px;
+  margin: auto;
+  text-align: left;
+}
+.info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info h2 {
+  font-size: 24px;
+  margin: 10px 0 15px 0;
+  color: #333;
+}
+
+.info p {
+  margin: 6px 0;
+  font-size: 16px;
+  color: #444;
+}
+
+.label {
+  font-weight: bold;
+  margin-right: 4px;
+  color: #222;
+}
+
+
+.reviewContainer {
+  gap: 20px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  max-width: 900px;
+  margin: auto;
+  text-align: left;
+}
+
+.reviewContainer input[type="text"]{
+    width:85%;
+    height:33px;
+    padding-top:5px;
+    border:none;
+}
+
+.reviewContainer button{
+    width:12%;
+    height:40px;
+    padding-top:5px;
+    background-color: royalblue;
+    border-radius:5px;
+    border:none;
+    color:white;
+}
